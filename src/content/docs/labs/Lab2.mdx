@@ -135,13 +135,13 @@ If the RPi and the wireless network have been configured correctly, then it shou
 
 Frist try pnging the RPi, using its hostname, for example:
 
-```
+```sh
 ping hostname.local
 ```
 
 If the device is found, try connecting to it using `ssh` with your user name and hostname as follows:
 
-```
+```sh
 ssh user@hostname.local
 ```
 
@@ -164,7 +164,7 @@ If the Network Connection or the Gadget Mode Connection with the RPi has been su
 
 To set up VNC, type
 
-```
+```sh
 sudo raspi-config
 ```
 
@@ -175,7 +175,7 @@ Navigate to **Interface Options** and then **VNC** and select **Yes**.
 Exit the raspi-config program.
 
 In the unlikely case you must reboot, type 
-```
+```sh
 sudo reboot
 ```
 
