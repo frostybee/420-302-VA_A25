@@ -1,6 +1,6 @@
 # What Is this?
 
-This repository contains course materials for the e-Commerce course.
+This repository contains course material for the e-Commerce course.
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
