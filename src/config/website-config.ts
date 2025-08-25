@@ -14,8 +14,8 @@ export default {
 
   // The path to the favicon
   // You can use: https://www.svgrepo.com/
-  favicon: '/images/ecommerce.svg',
+  favicon: '/favicon.svg',
 
   // The path to the logo
-  logo: '/logo.png',
+  logo: '/favicon.svg',
 }

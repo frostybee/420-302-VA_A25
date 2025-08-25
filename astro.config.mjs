@@ -51,6 +51,7 @@ export default defineConfig({
         starlightImageZoom(),
         starlightThemeGalaxy(),        
       ],
+      //TODO: modify the sidebar to include the quick links in src/config/sidebar.ts
       sidebar:[
         ...sidebar
       ]
