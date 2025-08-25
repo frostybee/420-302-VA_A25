@@ -32,7 +32,8 @@ export default defineConfig({
 
       // Load components overrides.
       components: {
-         TableOfContents: './src/components/ui/CustomToC.astro',
+        //  TableOfContents: './src/components/ui/CustomToC.astro',
+         Header: './src/components/ui/CustomHeader.astro',
       },
 
       // Load and apply the default custom styles.
@@ -49,7 +50,7 @@ export default defineConfig({
           }
         ),
         starlightImageZoom(),
-        starlightThemeGalaxy(),        
+        starlightThemeGalaxy(),
       ],
       //TODO: modify the sidebar to include the quick links in src/config/sidebar.ts
       sidebar:[
